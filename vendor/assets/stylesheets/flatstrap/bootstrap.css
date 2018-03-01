@@ -153,12 +153,16 @@ textarea {
   vertical-align: top;
 }
 @media print {
-  * {
-    text-shadow: none !important;
-    color: #000 !important;
-    background: transparent !important;
-    box-shadow: none !important;
-  }
+  /**
+  THIS SECTION GOT REMOVED ON PURPOSE
+  There are people in this world, who want to print documents in color instead of all black.
+   */
+  /** {*/
+    /*text-shadow: none !important;*/
+    /*color: #000 !important;*/
+    /*background: transparent !important;*/
+    /*box-shadow: none !important;*/
+  /*}*/
   a,
   a:visited {
     text-decoration: underline;
